@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body{
+            background: url(tlo2.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+        img{
+            border-radius: 50%;
+            width: 150px; 
+            height: 150px; 
+        }
+        .container{
+            margin:60px auto;
+            border-radius: 10%;
+            background-color: lightskyblue;
+            padding:20px;
+            width:400px;
+            height: 190px;
+        }
+        .business-card img{
+            float: left;
+        }
+        .username, .email, .download-cv{
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:15px;
+        }
+        .username span{
+            border-bottom: 3px solid red;
+            padding-bottom: 2px;
+            font-size: 25px;
+        }
+        .email{
+            font-size: 20px;
+            padding-top: 10px;
+        }
+        .download-cv a{
+            padding-top: 50px;
+            color:red;
+            text-decoration: none;
+        }
+        .download-cv{
+            padding-top: 40px;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="business-card">
+            <img src="https://thumbs.dreamstime.com/b/businessman-icon-vector-male-avatar-profile-image-profile-businessman-icon-vector-male-avatar-profile-image-182095609.jpg" alt="">
+            <p class="username">
+                <span>Daniel Gargo</span>
+            </p>
+            <p class="email">
+                <span>Danielgargo@gmail.com</span>
+            </p>
+            <p class="download-cv">
+                <span>
+                    <a href="#">Download CV</a>
+                </span>
+            </p>
+        </div>
+   </div>
+</body>
+</html>
